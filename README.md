@@ -6,14 +6,17 @@ Erstellt ein neues Spring Boot Projekt in IntelliJ und implementiert einen einfa
 Verwendet dabei die gelernten Konzepte wie Annotations, HTTP-Methoden und Path Variables.
 
 
-    Schritt 1: Erstelle eine Spring-Boot-Anwendung mit dem Spring Initializr und füge den spring-web-starter hinzu.
+    Schritt 1: Erstelle eine Spring-Boot-Anwendung mit dem Spring Initializr und füge
+    den spring-web-starter hinzu.
 
-    Schritt 2: Schreibe einen Controller, der eine GET-Anfrage auf '/hello' verarbeitet und 'Hello, World!' zurückgibt.
+    Schritt 2: Schreibe einen Controller, der eine GET-Anfrage auf '/hello'
+    verarbeitet und 'Hello, World!' zurückgibt.
 
     Schritt 3: Verwende Path Variables, um den Namen in der Nachricht anzupassen.
     Beispiel: '/hello/John' gibt 'Hello, John!' zurück.
 
-    Schritt 4: Teste deine Controller-Methode mit einem REST-Client oder Postman und dokumentiere deine Ergebnisse.
+    Schritt 4: Teste deine Controller-Methode mit einem REST-Client oder
+    Postman und dokumentiere deine Ergebnisse.
 
 
 ## Bonus-Aufgabe
@@ -33,5 +36,6 @@ Super, du hast Zeit für die Bonusaufgabe! Bearbeite diese optionalen Zusatzaufg
     Schritt 4: Implementiere eine zusätzliche Controller-Methode, die eine GET-Anfrage auf
     '/messages' verarbeitet. Diese Methode sollte die Liste der Messages zurückgeben.
 
-    Schritt 5: Implementiere eine zusätzliche Controller-Methode, die eine DELETE-Anfrage auf '/messages/id' verarbeitet. Diese Methode sollte die Message mit der entsprechenden id aus der Liste löschen.(nutze eine Path Variable)
+    Schritt 5: Implementiere eine zusätzliche Controller-Methode, die eine DELETE-Anfrage
+    auf '/messages/id' verarbeitet. Diese Methode sollte die Message mit der entsprechenden id aus der Liste löschen.(nutze eine Path Variable)
 
