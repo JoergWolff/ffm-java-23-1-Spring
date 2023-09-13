@@ -37,5 +37,6 @@ Super, du hast Zeit für die Bonusaufgabe! Bearbeite diese optionalen Zusatzaufg
     '/messages' verarbeitet. Diese Methode sollte die Liste der Messages zurückgeben.
 
     Schritt 5: Implementiere eine zusätzliche Controller-Methode, die eine DELETE-Anfrage
-    auf '/messages/id' verarbeitet. Diese Methode sollte die Message mit der entsprechenden id aus der Liste löschen.(nutze eine Path Variable)
+    auf '/messages/id' verarbeitet. Diese Methode sollte die Message mit der
+    entsprechenden id aus der Liste löschen.(nutze eine Path Variable)
 
