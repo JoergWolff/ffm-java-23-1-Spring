@@ -21,13 +21,17 @@ Verwendet dabei die gelernten Konzepte wie Annotations, HTTP-Methoden und Path V
 Super, du hast Zeit für die Bonusaufgabe! Bearbeite diese optionalen Zusatzaufgaben, um deine Kenntnisse weiter zu vertiefen.
 
 
-    Schritt 1: Erstelle eine neue Klasse 'Message' mit den Felder 'name', 'message' und 'id' vom Typ String.
+    Schritt 1: Erstelle eine neue Klasse 'Message' mit den Felder 'name', 'message' und 'id'
+    vom Typ String.
 
     Schritt 2: Der Controller soll nun eine Liste von Message-Objekten haben.
 
-    Schritt 3: Implementiere eine zusätzliche Controller-Methode, die eine POST-Anfrage auf '/messages' verarbeitet. Diese Methode sollte eine id, einen Namen und eine Message im Request-Body entgegennehmen und sie in der Liste speichern.
+    Schritt 3: Implementiere eine zusätzliche Controller-Methode, die eine POST-Anfrage auf
+    '/messages' verarbeitet. Diese Methode sollte eine id, einen Namen und eine Message im
+    Request-Body entgegennehmen und sie in der Liste speichern.
 
-    Schritt 4: Implementiere eine zusätzliche Controller-Methode, die eine GET-Anfrage auf '/messages' verarbeitet. Diese Methode sollte die Liste der Messages zurückgeben.
+    Schritt 4: Implementiere eine zusätzliche Controller-Methode, die eine GET-Anfrage auf
+    '/messages' verarbeitet. Diese Methode sollte die Liste der Messages zurückgeben.
 
     Schritt 5: Implementiere eine zusätzliche Controller-Methode, die eine DELETE-Anfrage auf '/messages/id' verarbeitet. Diese Methode sollte die Message mit der entsprechenden id aus der Liste löschen.(nutze eine Path Variable)
 
