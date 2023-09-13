@@ -14,6 +14,4 @@ public class SpringController {
     public String getHelloMessage(@PathVariable String name){
         return "Hello wie geht es dir, " + name;
     }
-
-    @GetMapping("")
 }
