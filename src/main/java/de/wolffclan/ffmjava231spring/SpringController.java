@@ -5,22 +5,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping()
+@RequestMapping("/api")
 public class SpringController {
-List<Message> messageList = new ArrayList<>();
+private final List<Message> messageList = new ArrayList<>();
 
-
-    @PostMapping("/message")
-    public String  postMessage(@RequestParam String id, String name, String message){
-        Message newMessage = new Message(id,name,message);
-        messageList.add(newMessage);
-        System.out.println(messageList);
-        return "It works...:" +newMessage;
+    @PostMapping("/messages")
+    public Message addMessage(@RequestBody Message message) {
+        messageList.add(message);
+        return message;
     }
-    @GetMapping("/message")
-    public String getMessageList(){
-        return messageList.toString();
-        //return messageList;
+
+    @GetMapping("/messages")
+    public List<Message> getMessageList(){
+        return messageList;
     }
 
     @GetMapping("/hello")
@@ -30,13 +27,8 @@ List<Message> messageList = new ArrayList<>();
 
     @GetMapping("/hello/{name}")
     public String getHelloMessage(@PathVariable String name){
+
         return "Hello wie geht es dir, " + name;
     }
 
-    @Override
-    public String toString() {
-        return "SpringController{" +
-                "messageList=" + messageList +
-                '}';
-    }
 }
